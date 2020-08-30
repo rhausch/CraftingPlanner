@@ -1,7 +1,8 @@
 <template>
   <tr class="recipe">
     <td>
-    {{ recipe.name }}
+      <div class="name">{{ recipe.name }}</div>
+      <div class="description">{{ recipe.description }}</div>
     </td>
     <td>
       <ul class="items" v-bind:key="component.id" v-for="component in recipe.requires">
@@ -37,6 +38,15 @@ export default {
   td {
     padding: 5px 0 5px 0;
     text-align: center;
+    width: 25%;
   }
 
+  .name {
+    font-weight: bold;
+  }
+
+  .description {
+    font-style: italic;
+    font-size: small;
+  }
 </style>

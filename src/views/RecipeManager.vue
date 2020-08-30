@@ -44,10 +44,11 @@ export default {
     emptyRecipe() {
       return {
         name: '',
-            cost: 0,
-            time: 1,
-            requires: [],
-            produces: [],
+        description: '',
+        cost: 0,
+        time: 1,
+        requires: [],
+        produces: [],
       }
     },
     submitCreate() {

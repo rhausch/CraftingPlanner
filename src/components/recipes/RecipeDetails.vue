@@ -1,6 +1,8 @@
 <template>
   <div class="RecipeDetails">
-    <label for="recipename">Name: </label><input type="text" v-model="recipe.name" id="recipename" placeholder="Recipe Name..."><br>
+    <label for="recipename">Name: </label><input type="text" v-model="recipe.name" id="recipename" placeholder="Recipe Name..."> -
+    <label for="recipedesc">Description: </label><input type="text" v-model="recipe.description" id="recipedesc" placeholder="Description...">
+    <br>
     <div class="container">
       <div class="subcontainer">
         <div><label for="time">Time: </label><input type="text" id="time" v-model="recipe.time" size="4"></div>
@@ -69,9 +71,13 @@ export default {
         this.requirementQuantity = 1;
         return;
       }
+      const selectedItem = this.getItemById(this.selectedRequirement);
       let component = {
-        item: this.getItemById(this.selectedRequirement),
-        quantity: parseInt(this.requirementQuantity),
+          item: {
+            id: selectedItem.id,
+            name: selectedItem.name,
+          },
+          quantity: parseInt(this.requirementQuantity),
       }
       const index = this.recipe.requires.findIndex(i => i.item.id === this.selectedRequirement);
       console.log("Requirement index:", index);
@@ -109,8 +115,12 @@ export default {
         this.productQuantity = 1;
         return;
       }
+      const selectedItem = this.getItemById(this.selectedProduct);
       let component = {
-        item: this.getItemById(this.selectedProduct),
+        item: {
+          id: selectedItem.id,
+          name: selectedItem.name,
+        },
         quantity: parseInt(this.productQuantity),
       }
       this.insertProduct(component);

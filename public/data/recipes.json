@@ -21,7 +21,8 @@
         "quantity":-1
       }
     ],
-    "id":"87d74362-1ea1-4fba-bf9e-8bcb7d4f6218"
+    "id":"87d74362-1ea1-4fba-bf9e-8bcb7d4f6218",
+    "description":"Fun for the whole family"
   },
   {
     "name":"Sell Table",
@@ -45,7 +46,8 @@
         "quantity":-1
       }
     ],
-    "id":"0f34e467-a971-4df5-9b8c-1d7999920466"
+    "id":"0f34e467-a971-4df5-9b8c-1d7999920466",
+    "description":"You know you need a table"
   },
   {
     "name":"Sell Chair",
@@ -69,7 +71,8 @@
         "quantity":-1
       }
     ],
-    "id":"d8e704ad-138e-4582-960b-7d0a9ff03d67"
+    "id":"d8e704ad-138e-4582-960b-7d0a9ff03d67",
+    "description":"Here, take this chair!"
   },
   {
     "name":"Build Dining Set",
@@ -114,7 +117,8 @@
         "quantity":1
       }
     ],
-    "id":"9e177b09-ab96-4e1a-b6bd-7654cf24d613"
+    "id":"9e177b09-ab96-4e1a-b6bd-7654cf24d613",
+    "description":"Not really making anything. I guess just putting a table and some chairs in the same location"
   },
   {
     "name":"Build Table",
@@ -159,7 +163,8 @@
         "quantity":1
       }
     ],
-    "id":"42be7417-f22a-4c15-af3a-7e9a763f4b8f"
+    "id":"42be7417-f22a-4c15-af3a-7e9a763f4b8f",
+    "description":"Like making a big chair"
   },
   {
     "name":"Build Chair",
@@ -204,7 +209,8 @@
         "quantity":1
       }
     ],
-    "id":"7d969c16-a353-477c-9059-a18f486f1b99"
+    "id":"7d969c16-a353-477c-9059-a18f486f1b99",
+    "description":"It's chairing time"
   },
   {
     "name":"Buy Nails",
@@ -222,7 +228,8 @@
         "quantity":3
       }
     ],
-    "id":"36ec5fd0-4dc9-479e-bd4c-8a941f1d127a"
+    "id":"36ec5fd0-4dc9-479e-bd4c-8a941f1d127a",
+    "description":"When you have a hammer ..."
   },
   {
     "name":"Sell Wood",
@@ -246,7 +253,8 @@
         "quantity":-1
       }
     ],
-    "id":"ea0da6b6-18c3-4571-a01a-955b553f82cc"
+    "id":"ea0da6b6-18c3-4571-a01a-955b553f82cc",
+    "description":"Wood for gold"
   },
   {
     "name":"Harvest Wood",
@@ -264,6 +272,7 @@
         "quantity":1
       }
     ],
-    "id":"5a073dbe-20b6-40df-807d-8d90d0f13eb9"
+    "id":"5a073dbe-20b6-40df-807d-8d90d0f13eb9",
+    "description":"I'm a lumberjack and that's okay"
   }
 ]
