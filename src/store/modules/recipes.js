@@ -68,7 +68,7 @@ const actions = {
         if (state.initialized)
             return;
         try {
-            const response = await axios.get(process.env.VUE_APP_BASE_URL + "data/recipes.json");
+            const response = await axios.get("data/recipes.json");
             console.log(response.data);
             commit("setRecipes", response.data);
             state.initialized = true;

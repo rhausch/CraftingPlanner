@@ -19,7 +19,7 @@ const actions = {
     async initializeItems({ commit }) {
         if (state.initialized)
             return;
-        const response = await axios.get(process.env.VUE_APP_BASE_URL + "data/items.json");
+        const response = await axios.get("data/items.json");
         console.log(response.data);
         commit("setItems", response.data);
         state.initialized = true;
