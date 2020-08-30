@@ -59,7 +59,7 @@ const state = {
 
 const getters = {
     allRecipes: (state) => state.recipes,
-    selectedRecipe: (state) => state.recipes.find(recipe => recipe.id == state.selectedRecipe),
+    selectedRecipe: (state) => state.recipes.find(recipe => recipe.id === state.selectedRecipe),
     getRecipeById: (state) => (id) => state.recipes.find(recipe => recipe.id === id),
 };
 
@@ -93,7 +93,7 @@ const actions = {
 };
 
 const mutations = {
-    deleteRecipe: (state, id)  => state.recipes = state.recipes.filter(item => item.id != id),
+    deleteRecipe: (state, id)  => state.recipes = state.recipes.filter(item => item.id !== id),
     setRecipes: (state, items) => (state.recipes = items),
     selectRecipe(state, payload) {
         console.log("selectRecipe:" + payload.id);

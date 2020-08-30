@@ -17,12 +17,4 @@ export default {
     padding: 10px 20px;
     border-bottom: 2px #cccccc dotted;
   }
-  .del {
-    background: #ff0000;
-    color: #ffffff;
-    boarder: none;
-    padding: 5px 9px;
-    cursor: pointer;
-    float: right;
-  }
 </style>

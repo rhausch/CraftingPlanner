@@ -1,3 +1,4 @@
+<!--suppress CssUnusedSymbol -->
 <template>
   <header class="header">
     <h1>Crafting Planner</h1>

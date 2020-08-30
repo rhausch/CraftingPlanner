@@ -4,13 +4,13 @@
       <h1>Edit Item <button @click="selectItem({id:''})">Close</button></h1>
       <br>
       id: {{ selectedItem().id }}<br>
-      Name: <input type="text" name="name" v-model="selectedItem().name" id="item-name"><br>
+      <label for="item-name">Name: </label><input type="text" name="name" v-model="selectedItem().name" id="item-name"><br>
       <br>
       <button @click="deleteItem(selectedItem().id)" class="btn">Delete</button>
     </template>
     <template v-else>
       <form @submit="submitItem">
-        Name: <input type="text" v-model="name" name="name" placeholder="Create item..."><br>
+        <label for="create">Name: </label><input id="create" type="text" v-model="name" name="name" placeholder="Create item..."><br>
         <input type="submit" value="Submit" class="btn">
       </form>
     </template>
@@ -34,7 +34,7 @@ export default {
     },
     submitItem(e) {
       e.preventDefault();
-      if (this.name == '')
+      if (this.name === '')
         return;
       this.createItem(this.name);
       this.name = '';

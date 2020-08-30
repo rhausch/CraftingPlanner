@@ -11,7 +11,7 @@ const state = {
 const getters = {
     allItems: (state) => state.items,
     //getSelectedItem: (state) => () => state.selectedItem === "" ? null : state.items.find(item => item.id == state.selectedItem),
-    selectedItem: (state) => () => state.selectedItem === "" ? null : state.items.find(item => item.id == state.selectedItem),
+    selectedItem: (state) => () => state.selectedItem === "" ? null : state.items.find(item => item.id === state.selectedItem),
     getItemById: (state) => (id) => state.items.find(item => item.id === id)
 };
 
@@ -41,7 +41,7 @@ const actions = {
 };
 
 const mutations = {
-    deleteItem: (state, id)  => state.items = state.items.filter(item => item.id != id),
+    deleteItem: (state, id)  => state.items = state.items.filter(item => item.id !== id),
     setItems: (state, items) => (state.items = items),
     selectItem(state, payload) {
         console.log("selectItem:" + payload.id);

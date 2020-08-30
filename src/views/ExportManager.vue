@@ -6,7 +6,7 @@
       <button class="btn" @click="loadRecipes()">Recipes</button>
     </div>
     <div class="textContainer">
-      <textarea id="json" rows="30" cols="100" v-model="jsonBlob"></textarea>
+      <label for="json" class="hidden">JSON Blob</label><textarea id="json" rows="30" cols="100" v-model="jsonBlob"></textarea>
     </div>
     <div class="btnContainer">
       Save:
@@ -46,7 +46,7 @@ export default {
       this.loadRecipesJSON(this.jsonBlob);
     },
     exportJson() {
-      if (this.fileName == '')
+      if (this.fileName === '')
         return;
       const blob = new Blob([this.jsonBlob], {type: 'text/plain'});
       const e = document.createEvent('MouseEvents'),
@@ -74,6 +74,6 @@ export default {
   }
 
   .exportManager {
-    margin: 5px 25px 0px 25px;
+    margin: 5px 25px 0 25px;
   }
 </style>

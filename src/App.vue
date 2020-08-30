@@ -26,4 +26,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
 }
+
+.hidden {
+  display: none;
+}
 </style>

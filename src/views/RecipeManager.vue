@@ -63,7 +63,7 @@ export default {
       this.$store.commit('selectRecipe', {id:''});
     },
     validate() {
-      if (this.recipe.name == '') {
+      if (this.recipe.name === '') {
         console.log("Validation failed. Requires a name", this.recipe.name)
         return false;
       }
@@ -75,7 +75,7 @@ export default {
         console.log("Validation failed. Cost not a number.", this.recipe.cost)
         return false;
       }
-      if (this.recipe.requires.length == 0 && this.recipe.produces.length == 0) {
+      if (this.recipe.requires.length === 0 && this.recipe.produces.length === 0) {
         console.log("Validation failed. Does not consume or produce anything.", this.recipe.requires.length, this.recipe.produces.length)
         return false;
       }

@@ -10,10 +10,12 @@
         <ul class="items" v-bind:key="component.id" v-for="component in recipe.requires">
           <li><button class="del" @click="removeRequirement(component.item.id)">X</button> {{component.quantity}} x {{component.item.name}}</li>
         </ul>
-        <select v-model="selectedRequirement">
-          <option disabled value="">Requirement</option>
-          <option v-for="item in allItems" v-bind:key="item.id" v-bind:value="item.id">{{item.name}}</option>
-        </select>
+        <label>
+          <select v-model="selectedRequirement">
+            <option disabled value="">Requirement</option>
+            <option v-for="item in allItems" v-bind:key="item.id" v-bind:value="item.id">{{item.name}}</option>
+          </select>
+        </label>
         <span v-if="selectedRequirement">
           <label for="quantityR">Quantity: </label><input type="text" id="quantityR" v-model="requirementQuantity" size="4">
           <label for="consumeR">Consume?</label><input type="checkbox" id="consumeR" v-model="consumeRequirement">
@@ -25,10 +27,12 @@
         <ul class="items" v-bind:key="component.id" v-for="component in recipe.produces">
           <li><button class="del" @click="removeProduct(component.item.id)">X</button> {{component.quantity}} x {{component.item.name}}</li>
         </ul>
-        <select v-model="selectedProduct">
-          <option disabled value="">Product</option>
-          <option v-for="item in allItems" v-bind:key="item.id" v-bind:value="item.id">{{item.name}}</option>
-        </select>
+        <label>
+          <select v-model="selectedProduct">
+            <option disabled value="">Product</option>
+            <option v-for="item in allItems" v-bind:key="item.id" v-bind:value="item.id">{{item.name}}</option>
+          </select>
+        </label>
         <span v-if="selectedProduct">
           <label for="quantityP">Quantity: </label><input type="text" id="quantityP" v-model="productQuantity" size="4">
         </span>
@@ -69,11 +73,11 @@ export default {
         item: this.getItemById(this.selectedRequirement),
         quantity: parseInt(this.requirementQuantity),
       }
-      const index = this.recipe.requires.findIndex(i => i.item.id == this.selectedRequirement);
+      const index = this.recipe.requires.findIndex(i => i.item.id === this.selectedRequirement);
       console.log("Requirement index:", index);
-      if (index != -1) {
+      if (index !== -1) {
         component.quantity += this.recipe.requires[index].quantity;
-        if (component.quantity == 0) {
+        if (component.quantity === 0) {
           // Delete empty components.
           this.recipe.requires = [...this.recipe.requires.slice(0,index), ...this.recipe.requires.slice(index+1)];
         } else {
@@ -114,11 +118,11 @@ export default {
       this.productQuantity = 1;
     },
     insertProduct(component) {
-      const index = this.recipe.produces.findIndex(i => i.item.id == component.item.id);
+      const index = this.recipe.produces.findIndex(i => i.item.id === component.item.id);
       console.log("Product Index:", index);
-      if (index != -1) {
+      if (index !== -1) {
         component.quantity += this.recipe.produces[index].quantity;
-        if (component.quantity == 0) {
+        if (component.quantity === 0) {
           // Delete empty components.
           this.recipe.produces = [...this.recipe.produces.slice(0,index), ...this.recipe.produces.slice(index+1)];
         } else {
@@ -157,7 +161,7 @@ export default {
   .del {
     background: #ff0000;
     color: #ffffff;
-    boarder: none;
+    border: none;
     padding: 1px 1px;
     cursor: pointer;
   }

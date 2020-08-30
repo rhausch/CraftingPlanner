@@ -1,7 +1,9 @@
 <template>
   <div>
     <form @submit="submitItem">
-      <input type="text" v-model="name" name="name" placeholder="Create item...">
+      <label>
+        <input type="text" v-model="name" name="name" placeholder="Create item...">
+      </label>
       <input type="submit" value="Submit" class="btn">
     </form>
   </div>

@@ -35,7 +35,7 @@ export default {
   }
 
   td {
-    padding: 5px 0px 5px 0px;
+    padding: 5px 0 5px 0;
     text-align: center;
   }
 
