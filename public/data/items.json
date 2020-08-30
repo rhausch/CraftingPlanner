@@ -1,8 +1,32 @@
 [
-  {"id":"6e89b278-b1c0-4f2a-adc4-c98f836d4ca3","name":"Picture Frame"},
-  {"id":"1e71690a-3a01-47e4-9f57-9eec82fdff75","name":"Dining Set"},
-  {"id":"2765208f-d017-4314-9b4c-46def1c5edaf","name":"Table"},
-  {"id":"f046409f-b466-41d5-be90-d016d96e93fe","name":"Chair"},
-  {"id":"6c4c558f-030b-4dee-a7c1-420ebffa19d4","name":"Nails"},
-  {"id":"5df8fabb-7b52-48ec-ba89-880545188996","name":"Wood"}
+  {
+    "id":"6e89b278-b1c0-4f2a-adc4-c98f836d4ca3",
+    "name":"Picture Frame",
+    "description":"Looks better with a picture"
+  },
+  {
+    "id":"1e71690a-3a01-47e4-9f57-9eec82fdff75",
+    "name":"Dining Set",
+    "description":"Fits a standard family"
+  },
+  {
+    "id":"2765208f-d017-4314-9b4c-46def1c5edaf",
+    "name":"Table",
+    "description":"Like a floor but higher"
+  },
+  {
+    "id":"f046409f-b466-41d5-be90-d016d96e93fe",
+    "name":"Chair",
+    "description":"Butt goes here"
+  },
+  {
+    "id":"6c4c558f-030b-4dee-a7c1-420ebffa19d4",
+    "name":"Nails",
+    "description":"Metal glue for wood"
+  },
+  {
+    "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+    "name":"Wood",
+    "description":"Before the stone age was the wood age"
+  }
 ]

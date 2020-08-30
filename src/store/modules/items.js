@@ -52,12 +52,12 @@ const mutations = {
       const index = state.items.findIndex(i => i.id === item.id);
       state = {...state.items.slice(0,index), item, ...state.items.slice(index+1)};
     },
-    newItem(state, name) {
-        const item = {
+    newItem(state, item) {
+        const newItem = {
             id: uuid(),
-            name: name,
+            ...item
         }
-        state.items.unshift(item);
+        state.items.unshift(newItem);
     }
 };
 

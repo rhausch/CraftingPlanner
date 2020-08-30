@@ -1,6 +1,7 @@
 <template>
   <div class="item">
-    {{ item.name }}
+    <div class="name">{{ item.name }}</div>
+    <div class="description">{{ item.description }}</div>
   </div>
 </template>
 
@@ -16,5 +17,14 @@ export default {
     background: #f4f4f4;
     padding: 10px 20px;
     border-bottom: 2px #cccccc dotted;
+  }
+
+  .name {
+    font-weight: bold;
+  }
+
+  .description {
+    font-style: italic;
+    font-size: small;
   }
 </style>

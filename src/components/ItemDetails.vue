@@ -5,12 +5,14 @@
       <br>
       id: {{ selectedItem().id }}<br>
       <label for="item-name">Name: </label><input type="text" name="name" v-model="selectedItem().name" id="item-name"><br>
+      <label for="item-description">Description: </label><input type="text" name="name" v-model="selectedItem().description" id="item-description"><br>
       <br>
       <button @click="deleteItem(selectedItem().id)" class="btn">Delete</button>
     </template>
     <template v-else>
       <form @submit="submitItem">
-        <label for="create">Name: </label><input id="create" type="text" v-model="name" name="name" placeholder="Create item..."><br>
+        <label for="newName">Name: </label><input id="newName" type="text" v-model="item.name" name="name" placeholder="Create item..."><br>
+        <label for="newDesciption">Description: </label><input id="newDesciption" type="text" v-model="item.description" name="name" placeholder="description..."><br>
         <input type="submit" value="Submit" class="btn">
       </form>
     </template>
@@ -24,7 +26,10 @@ export default {
   name: "ItemDetails",
   data() {
     return {
-      name: '',
+      item: {
+        name: '',
+        description: '',
+      }
     }
   },
   methods: {
@@ -36,8 +41,9 @@ export default {
       e.preventDefault();
       if (this.name === '')
         return;
-      this.createItem(this.name);
-      this.name = '';
+      this.createItem(this.item);
+      this.item.name = '';
+      this.item.description = '';
     }
   },
   computed: {
