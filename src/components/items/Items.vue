@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Item from "@/components/Item";
+import Item from "@/components/items/Item";
 import { mapGetters, mapActions } from 'vuex';
 
 export default {

@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import Items from '@/components/Items';
-import ItemDetails from "@/components/ItemDetails";
+import Items from '@/components/items/Items';
+import ItemDetails from "@/components/items/ItemDetails";
 import { mapGetters } from 'vuex';
 
 export default {

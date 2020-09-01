@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import ItemManager from '@/views/ItemManager.vue'
 import RecipeManager from "@/views/RecipeManager";
 import ExportManager from "@/views/ExportManager";
+import InventoryManager from "@/views/InventoryManager";
 
 Vue.use(VueRouter)
 
@@ -16,6 +17,11 @@ Vue.use(VueRouter)
       path: '/recipes',
       name: 'Recipes',
       component: RecipeManager
+    },
+    {
+      path: '/inventory',
+      name: "Inventory",
+      component: InventoryManager,
     },
     {
       path: '/export',

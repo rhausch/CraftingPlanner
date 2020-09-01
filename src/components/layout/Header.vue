@@ -3,6 +3,7 @@
   <header class="header">
     <h1>Crafting Planner</h1>
     <div id="nav">
+      <router-link to="/inventory">Inventory</router-link> |
       <router-link to="/">Items</router-link> |
       <router-link to="/recipes">Recipes</router-link> |
       <router-link to="/export">Export</router-link> |
