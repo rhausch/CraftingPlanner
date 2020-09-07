@@ -18,6 +18,7 @@ const state = {
         }
 
     ],
+    actionHistory: [],
     initialized: false,
     money: 0,
     currentTime: 0,
@@ -27,6 +28,7 @@ const getters = {
     inventory: (state) => state.container,
     money: (state) => state.money,
     time: (state) => state.currentTime,
+    actionHistory: (state) => state.actionHistory,
     canExecuteRecipe: (state) => (recipe) => {
         console.log("Validating recipe:", recipe.name)
         if (state.money < recipe.cost){
@@ -69,7 +71,6 @@ const actions = {
         commit('addToInventory', item)
     },
     executeRecipe({commit, getters}, recipe) {
-        console.log("Validating:", getters.canExecuteRecipe(recipe));
         if (!getters.canExecuteRecipe(recipe))
             return;
         recipe.produces.forEach( component => {
@@ -77,6 +78,7 @@ const actions = {
         });
         commit('cost', recipe.cost);
         commit('time', recipe.time);
+        commit('addActionToHistory', recipe.name);
     },
     emptyInventory({ commit }) {
         commit('clearInventory');
@@ -120,7 +122,10 @@ const mutations = {
         state.money -= money;
     },
     time(state, time) {
-        state.time += time;
+        state.currentTime += time;
+    },
+    addActionToHistory(state, action) {
+        state.actionHistory.unshift({action: action, time: state.currentTime});
     }
 };
 

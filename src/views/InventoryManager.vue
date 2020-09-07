@@ -17,6 +17,14 @@
         <h1>Inventory</h1>
         <Inventory />
       </div>
+      <div>
+        <h1>Action History</h1>
+        <ul>
+          <li v-for="ah in actionHistory" v-bind:key="ah.time">
+            {{ah.time}}}: {{ ah.action }}
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -34,7 +42,7 @@ export default {
     ...mapActions(['addItemToInventory','executeRecipe','initializeItems','initializeRecipes']),
   },
   computed: {
-    ...mapGetters(['allItems','allRecipes','canExecuteRecipe']),
+    ...mapGetters(['allItems','allRecipes','canExecuteRecipe','actionHistory']),
   },
   created() {
     this.initializeItems();
@@ -51,7 +59,7 @@ export default {
 
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
   }
 
