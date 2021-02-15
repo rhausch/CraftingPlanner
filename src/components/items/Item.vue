@@ -1,6 +1,6 @@
 <template>
   <div class="item">
-    <div class="name">{{ item.name }}</div>
+    <div class="name">{{ item.name }} - {{ item.value }} Monies</div>
     <div class="description">{{ item.description }}</div>
   </div>
 </template>

@@ -1,13 +1,16 @@
 [
   {
-    "name":"Sell Dining Set",
-    "cost":-2000,
-    "time":1,
+    "id":"b8d7f1b7-1bfa-4b21-9bd1-577cdb600262",
+    "name":"Baked Potato",
+    "description":null,
+    "cost":0.0,
+    "time":3.0,
     "requires":[
       {
         "item":{
-          "id":"1e71690a-3a01-47e4-9f57-9eec82fdff75",
-          "name":"Dining Set"
+          "id":"648e69e7-5a20-4ca3-9dfa-725086ab12b7",
+          "name":"Potato",
+          "description":"It's a potato.  When you hit it, it sounds like \"Potato!\""
         },
         "quantity":1
       }
@@ -15,81 +18,128 @@
     "produces":[
       {
         "item":{
-          "id":"1e71690a-3a01-47e4-9f57-9eec82fdff75",
-          "name":"Dining Set"
+          "id":"648e69e7-5a20-4ca3-9dfa-725086ab12b7",
+          "name":"Potato",
+          "description":"It's a potato.  When you hit it, it sounds like \"Potato!\""
         },
         "quantity":-1
+      },
+      {
+        "item":{
+          "id":"16cd6129-53d9-4ccd-90a5-9b8be3750080",
+          "name":"Baked Potato",
+          "description":"Tasty tasty taters!"
+        },
+        "quantity":1
       }
-    ],
-    "id":"87d74362-1ea1-4fba-bf9e-8bcb7d4f6218",
-    "description":"Fun for the whole family"
+    ]
   },
   {
-    "name":"Sell Table",
-    "cost":-200,
-    "time":1,
+    "id":"d032e3fa-21f5-4902-8f4d-16a37a079daf",
+    "name":"Build Bucket",
+    "description":null,
+    "cost":0.0,
+    "time":10.0,
     "requires":[
       {
         "item":{
-          "id":"2765208f-d017-4314-9b4c-46def1c5edaf",
-          "name":"Table"
+          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+          "name":"Wood",
+          "description":"You've got wood!"
         },
-        "quantity":1
+        "quantity":3
       }
     ],
     "produces":[
       {
         "item":{
-          "id":"2765208f-d017-4314-9b4c-46def1c5edaf",
-          "name":"Table"
+          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+          "name":"Wood",
+          "description":"You've got wood!"
         },
-        "quantity":-1
+        "quantity":-3
+      },
+      {
+        "item":{
+          "id":"b6988210-9b73-48c8-893d-e6e180cd32cb",
+          "name":"Bucket",
+          "description":"Like a portable hole!"
+        },
+        "quantity":1
       }
-    ],
-    "id":"0f34e467-a971-4df5-9b8c-1d7999920466",
-    "description":"You know you need a table"
+    ]
   },
   {
-    "name":"Sell Chair",
-    "cost":-100,
-    "time":1,
+    "id":"7d969c16-a353-477c-9059-a18f486f1b99",
+    "name":"Build Chair",
+    "description":null,
+    "cost":0.0,
+    "time":10.0,
     "requires":[
+      {
+        "item":{
+          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+          "name":"Wood",
+          "description":"You've got wood!"
+        },
+        "quantity":5
+      },
+      {
+        "item":{
+          "id":"6c4c558f-030b-4dee-a7c1-420ebffa19d4",
+          "name":"Nails",
+          "description":"They're pointy and you stick them in things."
+        },
+        "quantity":10
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+          "name":"Wood",
+          "description":"You've got wood!"
+        },
+        "quantity":-5
+      },
+      {
+        "item":{
+          "id":"6c4c558f-030b-4dee-a7c1-420ebffa19d4",
+          "name":"Nails",
+          "description":"They're pointy and you stick them in things."
+        },
+        "quantity":-10
+      },
       {
         "item":{
           "id":"f046409f-b466-41d5-be90-d016d96e93fe",
-          "name":"Chair"
+          "name":"Chair",
+          "description":""
         },
         "quantity":1
       }
-    ],
-    "produces":[
-      {
-        "item":{
-          "id":"f046409f-b466-41d5-be90-d016d96e93fe",
-          "name":"Chair"
-        },
-        "quantity":-1
-      }
-    ],
-    "id":"d8e704ad-138e-4582-960b-7d0a9ff03d67",
-    "description":"Here, take this chair!"
+    ]
   },
   {
+    "id":"9e177b09-ab96-4e1a-b6bd-7654cf24d613",
     "name":"Build Dining Set",
-    "cost":0,
-    "time":1,
+    "description":null,
+    "cost":0.0,
+    "time":1.0,
     "requires":[
       {
         "item":{
           "id":"2765208f-d017-4314-9b4c-46def1c5edaf",
-          "name":"Table"
+          "name":"Table",
+          "description":""
         },
         "quantity":1
       },
       {
         "item":{
           "id":"f046409f-b466-41d5-be90-d016d96e93fe",
-          "name":"Chair"
+          "name":"Chair",
+          "description":""
         },
         "quantity":6
       }
@@ -98,44 +148,237 @@
       {
         "item":{
           "id":"2765208f-d017-4314-9b4c-46def1c5edaf",
-          "name":"Table"
+          "name":"Table",
+          "description":""
         },
         "quantity":-1
       },
       {
         "item":{
           "id":"f046409f-b466-41d5-be90-d016d96e93fe",
-          "name":"Chair"
+          "name":"Chair",
+          "description":""
         },
         "quantity":-6
       },
       {
         "item":{
           "id":"1e71690a-3a01-47e4-9f57-9eec82fdff75",
-          "name":"Dining Set"
+          "name":"Dining Set",
+          "description":""
         },
         "quantity":1
       }
-    ],
-    "id":"9e177b09-ab96-4e1a-b6bd-7654cf24d613",
-    "description":"Not really making anything. I guess just putting a table and some chairs in the same location"
+    ]
   },
   {
-    "name":"Build Table",
-    "cost":0,
-    "time":15,
+    "id":"0bb6c37e-f27f-4047-89b9-7231fd6b1fd5",
+    "name":"Build Hoe",
+    "description":null,
+    "cost":0.0,
+    "time":1.0,
     "requires":[
       {
         "item":{
           "id":"5df8fabb-7b52-48ec-ba89-880545188996",
-          "name":"Wood"
+          "name":"Wood",
+          "description":"You've got wood!"
+        },
+        "quantity":1
+      },
+      {
+        "item":{
+          "id":"7a81ba9d-24ce-49a0-bde0-fcc8ff451603",
+          "name":"Iron Ingot",
+          "description":"Big block o' iron"
+        },
+        "quantity":1
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+          "name":"Wood",
+          "description":"You've got wood!"
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"7a81ba9d-24ce-49a0-bde0-fcc8ff451603",
+          "name":"Iron Ingot",
+          "description":"Big block o' iron"
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"565d36ee-8e11-495f-a403-8c51c20d73f4",
+          "name":"Hoe",
+          "description":"An immoral pleasure-seeker.  Can also till the ground."
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"cf0bd889-7550-4c9b-b2fd-159f37190e23",
+    "name":"Build Iron Pickaxe",
+    "description":null,
+    "cost":0.0,
+    "time":1.0,
+    "requires":[
+      {
+        "item":{
+          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+          "name":"Wood",
+          "description":"You've got wood!"
+        },
+        "quantity":1
+      },
+      {
+        "item":{
+          "id":"7a81ba9d-24ce-49a0-bde0-fcc8ff451603",
+          "name":"Iron Ingot",
+          "description":"Big block o' iron"
+        },
+        "quantity":1
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+          "name":"Wood",
+          "description":"You've got wood!"
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"7a81ba9d-24ce-49a0-bde0-fcc8ff451603",
+          "name":"Iron Ingot",
+          "description":"Big block o' iron"
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"af75e1f4-3db8-4c27-ba53-1e6502de4003",
+          "name":"Iron Pickaxe",
+          "description":"Don't take this tool for granite."
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"Build Nails ID",
+    "name":"Build Nails",
+    "description":null,
+    "cost":0.0,
+    "time":10.0,
+    "requires":[
+      {
+        "item":{
+          "id":"7a81ba9d-24ce-49a0-bde0-fcc8ff451603",
+          "name":"Iron Ingot",
+          "description":"Big block o' iron"
+        },
+        "quantity":1
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"7a81ba9d-24ce-49a0-bde0-fcc8ff451603",
+          "name":"Iron Ingot",
+          "description":"Big block o' iron"
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"6c4c558f-030b-4dee-a7c1-420ebffa19d4",
+          "name":"Nails",
+          "description":"They're pointy and you stick them in things."
+        },
+        "quantity":10
+      }
+    ]
+  },
+  {
+    "id":"aa515343-2512-495a-ae23-5d9d7b33ce7f",
+    "name":"Build Pot",
+    "description":null,
+    "cost":0.0,
+    "time":2.0,
+    "requires":[
+      {
+        "item":{
+          "id":"f5898719-f3c5-44a1-96f1-8f3d0b578a43",
+          "name":"Clay",
+          "description":"You could make a man out of this, but to make a woman apparently you need some ribs."
+        },
+        "quantity":2
+      },
+      {
+        "item":{
+          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+          "name":"Wood",
+          "description":"You've got wood!"
+        },
+        "quantity":1
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"f5898719-f3c5-44a1-96f1-8f3d0b578a43",
+          "name":"Clay",
+          "description":"You could make a man out of this, but to make a woman apparently you need some ribs."
+        },
+        "quantity":-2
+      },
+      {
+        "item":{
+          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+          "name":"Wood",
+          "description":"You've got wood!"
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"PotIDsorryrob",
+          "name":"Pot",
+          "description":"You could put a seed in here!"
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"42be7417-f22a-4c15-af3a-7e9a763f4b8f",
+    "name":"Build Table",
+    "description":null,
+    "cost":0.0,
+    "time":15.0,
+    "requires":[
+      {
+        "item":{
+          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+          "name":"Wood",
+          "description":"You've got wood!"
         },
         "quantity":10
       },
       {
         "item":{
           "id":"6c4c558f-030b-4dee-a7c1-420ebffa19d4",
-          "name":"Nails"
+          "name":"Nails",
+          "description":"They're pointy and you stick them in things."
         },
         "quantity":10
       }
@@ -144,44 +387,464 @@
       {
         "item":{
           "id":"5df8fabb-7b52-48ec-ba89-880545188996",
-          "name":"Wood"
+          "name":"Wood",
+          "description":"You've got wood!"
         },
         "quantity":-10
       },
       {
         "item":{
           "id":"6c4c558f-030b-4dee-a7c1-420ebffa19d4",
-          "name":"Nails"
+          "name":"Nails",
+          "description":"They're pointy and you stick them in things."
         },
         "quantity":-10
       },
       {
         "item":{
           "id":"2765208f-d017-4314-9b4c-46def1c5edaf",
-          "name":"Table"
+          "name":"Table",
+          "description":""
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"0b435073-d5be-4d02-9695-03b16fe32727",
+    "name":"Build Watering Can",
+    "description":null,
+    "cost":0.0,
+    "time":1.0,
+    "requires":[
+      {
+        "item":{
+          "id":"7a81ba9d-24ce-49a0-bde0-fcc8ff451603",
+          "name":"Iron Ingot",
+          "description":"Big block o' iron"
+        },
+        "quantity":3
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"7a81ba9d-24ce-49a0-bde0-fcc8ff451603",
+          "name":"Iron Ingot",
+          "description":"Big block o' iron"
+        },
+        "quantity":-3
+      },
+      {
+        "item":{
+          "id":"14465371-1e14-43a4-8ea3-f430d55e7a19",
+          "name":"Watering Can",
+          "description":"Use this to water crops.  Or whatever.  I'm not your boss."
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"36ec5fd0-4dc9-479e-bd4c-8a941f1d127a",
+    "name":"Buy Nails",
+    "description":null,
+    "cost":10.0,
+    "time":1.0,
+    "requires":[
+
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"6c4c558f-030b-4dee-a7c1-420ebffa19d4",
+          "name":"Nails",
+          "description":"They're pointy and you stick them in things."
+        },
+        "quantity":3
+      }
+    ]
+  },
+  {
+    "id":"a9d8b4c1-b327-4ac2-a11a-fd240af2430c",
+    "name":"Fill Bucket With Water",
+    "description":null,
+    "cost":0.0,
+    "time":1.0,
+    "requires":[
+      {
+        "item":{
+          "id":"b6988210-9b73-48c8-893d-e6e180cd32cb",
+          "name":"Bucket",
+          "description":"Like a portable hole!"
         },
         "quantity":1
       }
     ],
-    "id":"42be7417-f22a-4c15-af3a-7e9a763f4b8f",
-    "description":"Like making a big chair"
+    "produces":[
+      {
+        "item":{
+          "id":"230412c0-71e2-4f43-a7f8-4318b4f44242",
+          "name":"Water Bucket",
+          "description":"It's a bucket with water in it!"
+        },
+        "quantity":1
+      },
+      {
+        "item":{
+          "id":"b6988210-9b73-48c8-893d-e6e180cd32cb",
+          "name":"Bucket",
+          "description":"Like a portable hole!"
+        },
+        "quantity":-1
+      }
+    ]
   },
   {
-    "name":"Build Chair",
-    "cost":0,
-    "time":10,
+    "id":"fe179a35-31c9-43d3-860b-704b120f45a8",
+    "name":"Harvest Clay",
+    "description":null,
+    "cost":0.0,
+    "time":3.0,
+    "requires":[
+
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"f5898719-f3c5-44a1-96f1-8f3d0b578a43",
+          "name":"Clay",
+          "description":"You could make a man out of this, but to make a woman apparently you need some ribs."
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"c0f12c8c-7812-43ee-8ad4-d3e56633c45a",
+    "name":"Harvest Copper Ore",
+    "description":null,
+    "cost":0.0,
+    "time":5.0,
+    "requires":[
+      {
+        "item":{
+          "id":"af75e1f4-3db8-4c27-ba53-1e6502de4003",
+          "name":"Iron Pickaxe",
+          "description":"Don't take this tool for granite."
+        },
+        "quantity":1
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"4cafb28d-9d38-477f-8328-e8c4ebcc8ced",
+          "name":"Copper Ore",
+          "description":"Could create a police officer \"Ore\" a penny"
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"c0fbd5d6-c767-4b29-ba2e-9317ecbfe93e",
+    "name":"Harvest Gold Ore",
+    "description":null,
+    "cost":0.0,
+    "time":15.0,
+    "requires":[
+      {
+        "item":{
+          "id":"af75e1f4-3db8-4c27-ba53-1e6502de4003",
+          "name":"Iron Pickaxe",
+          "description":"Don't take this tool for granite."
+        },
+        "quantity":1
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"aa03ae0d-0c86-4b59-986c-dea80442d7f1",
+          "name":"Gold Ore",
+          "description":"Au-thentic gold ore!"
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"HarvestIronOreID",
+    "name":"Harvest Iron Ore",
+    "description":null,
+    "cost":0.0,
+    "time":3.0,
+    "requires":[
+
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"e805c5cd-e068-48f1-8a71-720eb02d93b0",
+          "name":"Iron Ore",
+          "description":"It's iron... ore is it?"
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"fdc4458f-ac74-431e-b6be-a7c227b177ab",
+    "name":"Harvest Silver Ore",
+    "description":null,
+    "cost":0.0,
+    "time":10.0,
+    "requires":[
+      {
+        "item":{
+          "id":"af75e1f4-3db8-4c27-ba53-1e6502de4003",
+          "name":"Iron Pickaxe",
+          "description":"Don't take this tool for granite."
+        },
+        "quantity":1
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"80355db0-8f6e-4aac-9f5c-056b578b4d78",
+          "name":"Silver Ore",
+          "description":"Something in this rock looks shiny"
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"5a073dbe-20b6-40df-807d-8d90d0f13eb9",
+    "name":"Harvest Wood",
+    "description":null,
+    "cost":0.0,
+    "time":3.0,
+    "requires":[
+
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+          "name":"Wood",
+          "description":"You've got wood!"
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"6c1f3e92-6cfc-4efb-a9b4-f0c4a97ab036",
+    "name":"Make a Salad",
+    "description":null,
+    "cost":0.0,
+    "time":3.0,
+    "requires":[
+      {
+        "item":{
+          "id":"829a8d86-2696-4271-bccd-d188e090439a",
+          "name":"Tomato",
+          "description":"Now all you need is lettuce and bacon and bread and you'll have a decent sandwich!"
+        },
+        "quantity":1
+      },
+      {
+        "item":{
+          "id":"e33da55c-49ca-464c-bb92-f6f25edd1c43",
+          "name":"Turnip",
+          "description":"These seem to turn up all over the place."
+        },
+        "quantity":1
+      },
+      {
+        "item":{
+          "id":"9bf1baa8-2bba-4b54-81e6-861f9f01bbf5",
+          "name":"Avocado",
+          "description":"Add some toast and a broken financial system and you'll be bankrupt."
+        },
+        "quantity":1
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"829a8d86-2696-4271-bccd-d188e090439a",
+          "name":"Tomato",
+          "description":"Now all you need is lettuce and bacon and bread and you'll have a decent sandwich!"
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"e33da55c-49ca-464c-bb92-f6f25edd1c43",
+          "name":"Turnip",
+          "description":"These seem to turn up all over the place."
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"9bf1baa8-2bba-4b54-81e6-861f9f01bbf5",
+          "name":"Avocado",
+          "description":"Add some toast and a broken financial system and you'll be bankrupt."
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"e761f82a-c9e6-438e-b91d-cdc8c778ec10",
+          "name":"Salad",
+          "description":"You don't make friends with salad, but you do make nutrition."
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"b71787ae-0405-4d13-8270-a8c444a4a19f",
+    "name":"Potato Stew",
+    "description":null,
+    "cost":0.0,
+    "time":1.0,
+    "requires":[
+      {
+        "item":{
+          "id":"648e69e7-5a20-4ca3-9dfa-725086ab12b7",
+          "name":"Potato",
+          "description":"It's a potato.  When you hit it, it sounds like \"Potato!\""
+        },
+        "quantity":1
+      },
+      {
+        "item":{
+          "id":"230412c0-71e2-4f43-a7f8-4318b4f44242",
+          "name":"Water Bucket",
+          "description":"It's a bucket with water in it!"
+        },
+        "quantity":1
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"648e69e7-5a20-4ca3-9dfa-725086ab12b7",
+          "name":"Potato",
+          "description":"It's a potato.  When you hit it, it sounds like \"Potato!\""
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"230412c0-71e2-4f43-a7f8-4318b4f44242",
+          "name":"Water Bucket",
+          "description":"It's a bucket with water in it!"
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"5b619495-9b4d-4018-8e23-b7ab0c9abb4d",
+          "name":"Potato Stew",
+          "description":"Boil 'em mash 'em stick 'em in a stew."
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"6baf565d-1604-4899-a6fc-470065795144",
+    "name":"Quarry Stone",
+    "description":null,
+    "cost":0.0,
+    "time":5.0,
+    "requires":[
+
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"e64df091-fce9-4421-ac72-12396177bd29",
+          "name":"Stone",
+          "description":"It's a stone."
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"d8e704ad-138e-4582-960b-7d0a9ff03d67",
+    "name":"Sell Chair",
+    "description":null,
+    "cost":-100.0,
+    "time":1.0,
+    "requires":[
+      {
+        "item":{
+          "id":"f046409f-b466-41d5-be90-d016d96e93fe",
+          "name":"Chair",
+          "description":""
+        },
+        "quantity":1
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"f046409f-b466-41d5-be90-d016d96e93fe",
+          "name":"Chair",
+          "description":""
+        },
+        "quantity":-1
+      }
+    ]
+  },
+  {
+    "id":"87d74362-1ea1-4fba-bf9e-8bcb7d4f6218",
+    "name":"Sell Dining Set",
+    "description":null,
+    "cost":-20000.0,
+    "time":1.0,
+    "requires":[
+      {
+        "item":{
+          "id":"1e71690a-3a01-47e4-9f57-9eec82fdff75",
+          "name":"Dining Set",
+          "description":""
+        },
+        "quantity":1
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"1e71690a-3a01-47e4-9f57-9eec82fdff75",
+          "name":"Dining Set",
+          "description":""
+        },
+        "quantity":-1
+      }
+    ]
+  },
+  {
+    "id":"asdfasdfsda",
+    "name":"Sell Stack of Wood",
+    "description":null,
+    "cost":-30.0,
+    "time":1.0,
     "requires":[
       {
         "item":{
           "id":"5df8fabb-7b52-48ec-ba89-880545188996",
-          "name":"Wood"
-        },
-        "quantity":5
-      },
-      {
-        "item":{
-          "id":"6c4c558f-030b-4dee-a7c1-420ebffa19d4",
-          "name":"Nails"
+          "name":"Wood",
+          "description":"You've got wood!"
         },
         "quantity":10
       }
@@ -190,56 +853,25 @@
       {
         "item":{
           "id":"5df8fabb-7b52-48ec-ba89-880545188996",
-          "name":"Wood"
-        },
-        "quantity":-5
-      },
-      {
-        "item":{
-          "id":"6c4c558f-030b-4dee-a7c1-420ebffa19d4",
-          "name":"Nails"
+          "name":"Wood",
+          "description":"You've got wood!"
         },
         "quantity":-10
-      },
-      {
-        "item":{
-          "id":"f046409f-b466-41d5-be90-d016d96e93fe",
-          "name":"Chair"
-        },
-        "quantity":1
       }
-    ],
-    "id":"7d969c16-a353-477c-9059-a18f486f1b99",
-    "description":"It's chairing time"
+    ]
   },
   {
-    "name":"Buy Nails",
-    "cost":10,
-    "time":1,
-    "requires":[
-
-    ],
-    "produces":[
-      {
-        "item":{
-          "id":"6c4c558f-030b-4dee-a7c1-420ebffa19d4",
-          "name":"Nails"
-        },
-        "quantity":3
-      }
-    ],
-    "id":"36ec5fd0-4dc9-479e-bd4c-8a941f1d127a",
-    "description":"When you have a hammer ..."
-  },
-  {
-    "name":"Sell Wood",
-    "cost":-3,
-    "time":1,
+    "id":"0f34e467-a971-4df5-9b8c-1d7999920466",
+    "name":"Sell Table",
+    "description":null,
+    "cost":-400.0,
+    "time":1.0,
     "requires":[
       {
         "item":{
-          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
-          "name":"Wood"
+          "id":"2765208f-d017-4314-9b4c-46def1c5edaf",
+          "name":"Table",
+          "description":""
         },
         "quantity":1
       }
@@ -247,32 +879,195 @@
     "produces":[
       {
         "item":{
-          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
-          "name":"Wood"
+          "id":"2765208f-d017-4314-9b4c-46def1c5edaf",
+          "name":"Table",
+          "description":""
         },
         "quantity":-1
       }
-    ],
-    "id":"ea0da6b6-18c3-4571-a01a-955b553f82cc",
-    "description":"Wood for gold"
+    ]
   },
   {
-    "name":"Harvest Wood",
-    "cost":0,
-    "time":3,
+    "id":"ea0da6b6-18c3-4571-a01a-955b553f82cc",
+    "name":"Sell Wood",
+    "description":null,
+    "cost":-3.0,
+    "time":1.0,
     "requires":[
-
+      {
+        "item":{
+          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+          "name":"Wood",
+          "description":"You've got wood!"
+        },
+        "quantity":1
+      }
     ],
     "produces":[
       {
         "item":{
           "id":"5df8fabb-7b52-48ec-ba89-880545188996",
-          "name":"Wood"
+          "name":"Wood",
+          "description":"You've got wood!"
+        },
+        "quantity":-1
+      }
+    ]
+  },
+  {
+    "id":"0217cf6c-1226-4eca-b134-86704a9b0ff6",
+    "name":"Smelt Copper Ore",
+    "description":null,
+    "cost":0.0,
+    "time":2.0,
+    "requires":[
+      {
+        "item":{
+          "id":"4cafb28d-9d38-477f-8328-e8c4ebcc8ced",
+          "name":"Copper Ore",
+          "description":"Could create a police officer \"Ore\" a penny"
         },
         "quantity":1
       }
     ],
-    "id":"5a073dbe-20b6-40df-807d-8d90d0f13eb9",
-    "description":"I'm a lumberjack and that's okay"
+    "produces":[
+      {
+        "item":{
+          "id":"4cafb28d-9d38-477f-8328-e8c4ebcc8ced",
+          "name":"Copper Ore",
+          "description":"Could create a police officer \"Ore\" a penny"
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"1a099e30-889c-48cd-a775-4a172045d599",
+          "name":"Copper Ingot",
+          "description":"It may be worth pennies, but I Cu building other things with it."
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"a3ff7d75-13ad-4b55-9511-da4333cb1924",
+    "name":"Smelt Gold Ore",
+    "description":null,
+    "cost":0.0,
+    "time":5.0,
+    "requires":[
+      {
+        "item":{
+          "id":"aa03ae0d-0c86-4b59-986c-dea80442d7f1",
+          "name":"Gold Ore",
+          "description":"Au-thentic gold ore!"
+        },
+        "quantity":1
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"aa03ae0d-0c86-4b59-986c-dea80442d7f1",
+          "name":"Gold Ore",
+          "description":"Au-thentic gold ore!"
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"3f9bfaed-62c2-4618-a5e2-f296b0bc60ef",
+          "name":"Gold Ingot",
+          "description":"A shiny, ausome metal"
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"Smelt Iron Ore ID",
+    "name":"Smelt Iron Ore",
+    "description":null,
+    "cost":0.0,
+    "time":5.0,
+    "requires":[
+      {
+        "item":{
+          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+          "name":"Wood",
+          "description":"You've got wood!"
+        },
+        "quantity":1
+      },
+      {
+        "item":{
+          "id":"e805c5cd-e068-48f1-8a71-720eb02d93b0",
+          "name":"Iron Ore",
+          "description":"It's iron... ore is it?"
+        },
+        "quantity":1
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+          "name":"Wood",
+          "description":"You've got wood!"
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"e805c5cd-e068-48f1-8a71-720eb02d93b0",
+          "name":"Iron Ore",
+          "description":"It's iron... ore is it?"
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"7a81ba9d-24ce-49a0-bde0-fcc8ff451603",
+          "name":"Iron Ingot",
+          "description":"Big block o' iron"
+        },
+        "quantity":1
+      }
+    ]
+  },
+  {
+    "id":"6d962a87-cda6-4d2d-9233-4bf1335f8919",
+    "name":"Smelt Silver Ore",
+    "description":null,
+    "cost":0.0,
+    "time":7.0,
+    "requires":[
+      {
+        "item":{
+          "id":"80355db0-8f6e-4aac-9f5c-056b578b4d78",
+          "name":"Silver Ore",
+          "description":"Something in this rock looks shiny"
+        },
+        "quantity":1
+      }
+    ],
+    "produces":[
+      {
+        "item":{
+          "id":"80355db0-8f6e-4aac-9f5c-056b578b4d78",
+          "name":"Silver Ore",
+          "description":"Something in this rock looks shiny"
+        },
+        "quantity":-1
+      },
+      {
+        "item":{
+          "id":"7574b80a-7085-4a24-99a3-1bb7629d79ad",
+          "name":"Silver Ingot",
+          "description":"Good for killing werewolves"
+        },
+        "quantity":1
+      }
+    ]
   }
 ]

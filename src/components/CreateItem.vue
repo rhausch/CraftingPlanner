@@ -16,7 +16,8 @@ export default {
   name: "CreateItem",
   data() {
     return {
-      name: ''
+      name: '',
+      value: 5
     }
   },
   methods: {

@@ -5,6 +5,7 @@
       <br>
       id: {{ selectedItem().id }}<br>
       <label for="item-name">Name: </label><input type="text" name="name" v-model="selectedItem().name" id="item-name"><br>
+      <label for="item-value">Value: </label><input type="text" name="value" v-model="selectedItem().value" id="item-value"><br>
       <label for="item-description">Description: </label><input type="text" name="name" v-model="selectedItem().description" id="item-description"><br>
       <br>
       <button @click="deleteItem(selectedItem().id)" class="btn">Delete</button>
@@ -12,6 +13,7 @@
     <template v-else>
       <form @submit="submitItem">
         <label for="newName">Name: </label><input id="newName" type="text" v-model="item.name" name="name" placeholder="Create item..."><br>
+        <label for="newValue">Value: </label><input id="newValue" type="text" v-model="item.value" name="value" placeholder="5"><br>
         <label for="newDesciption">Description: </label><input id="newDesciption" type="text" v-model="item.description" name="name" placeholder="description..."><br>
         <input type="submit" value="Submit" class="btn">
       </form>
