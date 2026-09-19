@@ -1,8 +1,6 @@
 <template>
   <div class="items">
-    <template class="item-list" v-for="item in allItems">
-      <Item v-bind:key="item.id" v-bind:item="item" @click.native="selectItem(item.id)"/>
-    </template>
+    <Item v-for="item in allItems" v-bind:key="item.id" v-bind:item="item" @click="selectItem(item.id)"/>
   </div>
 </template>
 

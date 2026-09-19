@@ -2,15 +2,15 @@
   <div>
     <table class="recipes">
       <thead>
-        <th>Name</th>
-        <th>Requires</th>
-        <th>Cost</th>
-        <th>Produces</th>
+        <tr>
+          <th>Name</th>
+          <th>Requires</th>
+          <th>Cost</th>
+          <th>Produces</th>
+        </tr>
       </thead>
       <tbody>
-        <template v-for="recipe in allRecipes">
-          <tr is="Recipe" v-bind:key="recipe.id" v-bind:recipe="recipe" @click.native="selectRecipe(recipe.id)"/>
-        </template>
+        <Recipe v-for="recipe in allRecipes" v-bind:key="recipe.id" v-bind:recipe="recipe" @click="selectRecipe(recipe.id)"/>
       </tbody>
     </table>
   </div>
