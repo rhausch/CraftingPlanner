@@ -1,0 +1,349 @@
+[
+  {
+    "id":"5ff30db0-ae56-4867-9324-57ba48f46341",
+    "name":"Avocado Seed",
+    "description":"What animal could have spread this seed around?",
+    "value":"10"
+  },
+  {
+    "id":"9bf1baa8-2bba-4b54-81e6-861f9f01bbf5",
+    "name":"Avocado",
+    "description":"Add some toast and a broken financial system and you'll be bankrupt.",
+    "value":"20"
+  },
+  {
+    "id":"8641c9b3-ac78-45b6-a1c0-745daff2228e",
+    "name":"Axe",
+    "description":"I need to axe you a question.",
+    "value":"250"
+  },
+  {
+    "id":"16cd6129-53d9-4ccd-90a5-9b8be3750080",
+    "name":"Baked Potato",
+    "description":"Tasty tasty taters!",
+    "value":"40"
+  },
+  {
+    "id":"cde35827-2863-4dcc-986c-0effcc7ba700",
+    "name":"Brown Chicken Egg",
+    "description":"Part of this balanced breakfast.",
+    "value":"20"
+  },
+  {
+    "id":"b6988210-9b73-48c8-893d-e6e180cd32cb",
+    "name":"Bucket",
+    "description":"Like a portable hole!",
+    "value":"250"
+  },
+  {
+    "id":"f046409f-b466-41d5-be90-d016d96e93fe",
+    "name":"Chair",
+    "description":"",
+    "value":"100"
+  },
+  {
+    "id":"f5898719-f3c5-44a1-96f1-8f3d0b578a43",
+    "name":"Clay",
+    "description":"You could make a man out of this, but to make a woman apparently you need some ribs.",
+    "value":"10"
+  },
+  {
+    "id":"d7a735db-d53a-44b5-b164-679412f812e7",
+    "name":"Coffee Beans",
+    "description":"This bean is packed full of caffeine!",
+    "value":"10"
+  },
+  {
+    "id":"1a099e30-889c-48cd-a775-4a172045d599",
+    "name":"Copper Ingot",
+    "description":"It may be worth pennies, but I Cu building other things with it.",
+    "value":"50"
+  },
+  {
+    "id":"4cafb28d-9d38-477f-8328-e8c4ebcc8ced",
+    "name":"Copper Ore",
+    "description":"Could create a police officer \"Ore\" a penny",
+    "value":"10"
+  },
+  {
+    "id":"8556c9f7-06b2-4f49-bdbb-49d1c3b63fac",
+    "name":"Corn Seeds",
+    "description":"These seeds should really pop corn.",
+    "value":"10"
+  },
+  {
+    "id":"7a725031-b40b-44ff-b54f-289297521bf3",
+    "name":"Corn",
+    "description":"Friends, countrymen, lend me your ears!",
+    "value":"20"
+  },
+  {
+    "id":"1e71690a-3a01-47e4-9f57-9eec82fdff75",
+    "name":"Dining Set",
+    "description":"",
+    "value":"2000"
+  },
+  {
+    "id":"b6d70dac-4e9a-4f2d-a044-dc433ea6527c",
+    "name":"Eggplant Seeds",
+    "description":"Seeds for an eggplant.  Certified vegan.",
+    "value":"10"
+  },
+  {
+    "id":"30a79610-051d-43a5-9560-f2bb52795ffb",
+    "name":"Eggplant",
+    "description":"Somehow not related to eggs at all.",
+    "value":"20"
+  },
+  {
+    "id":"3f9bfaed-62c2-4618-a5e2-f296b0bc60ef",
+    "name":"Gold Ingot",
+    "description":"A shiny, ausome metal",
+    "value":"100"
+  },
+  {
+    "id":"aa03ae0d-0c86-4b59-986c-dea80442d7f1",
+    "name":"Gold Ore",
+    "description":"Au-thentic gold ore!",
+    "value":"20"
+  },
+  {
+    "id":"050ee809-aa31-4eea-8852-4169ed74e842",
+    "name":"Grape Seeds",
+    "description":"Comes with a trellis for your grapes to grow on.",
+    "value":"10"
+  },
+  {
+    "id":"0d589225-fba3-4c81-9061-a559b72d18df",
+    "name":"Grapes",
+    "description":"How many grapes?  A bunch!",
+    "value":"15"
+  },
+  {
+    "id":"af9dbe77-027a-493c-8a61-a85fba56780b",
+    "name":"Green Bean Seeds",
+    "description":"It'll grow a green bean after it's bean watered.",
+    "value":"10"
+  },
+  {
+    "id":"9f68ed93-32ae-4ffd-a287-c71b940c2fce",
+    "name":"Green Bean",
+    "description":"A stringy green bean.  It's bean around.",
+    "value":"15"
+  },
+  {
+    "id":"565d36ee-8e11-495f-a403-8c51c20d73f4",
+    "name":"Hoe",
+    "description":"An immoral pleasure-seeker.  Can also till the ground.",
+    "value":"250"
+  },
+  {
+    "id":"7a81ba9d-24ce-49a0-bde0-fcc8ff451603",
+    "name":"Iron Ingot",
+    "description":"Big block o' iron",
+    "value":"45"
+  },
+  {
+    "id":"e805c5cd-e068-48f1-8a71-720eb02d93b0",
+    "name":"Iron Ore",
+    "description":"It's iron... ore is it?",
+    "value":"10"
+  },
+  {
+    "id":"af75e1f4-3db8-4c27-ba53-1e6502de4003",
+    "name":"Iron Pickaxe",
+    "description":"Don't take this tool for granite.",
+    "value":"250"
+  },
+  {
+    "id":"m0n3y88210-9b73-48c8-893d-e6e180cd32cb",
+    "name":"Money",
+    "description":"This can be exchanged for goods and services!",
+    "value":"1"
+  },
+  {
+    "id":"6c4c558f-030b-4dee-a7c1-420ebffa19d4",
+    "name":"Nails",
+    "description":"They're pointy and you stick them in things.",
+    "value":"15"
+  },
+  {
+    "id":"m0n3y88210-9b73-48c8-893d-e6e180cd32cb",
+    "name":"Money",
+    "description":"This can be exchanged for goods and services!"
+  },
+  {
+    "id":"6e89b278-b1c0-4f2a-adc4-c98f836d4ca3",
+    "name":"Picture Frame",
+    "description":"",
+    "value":"150"
+  },
+  {
+    "id":"PotIDsorryrob",
+    "name":"Pot",
+    "description":"You could put a seed in here!",
+    "value":"75"
+  },
+  {
+    "id":"5b619495-9b4d-4018-8e23-b7ab0c9abb4d",
+    "name":"Potato Stew",
+    "description":"Boil 'em mash 'em stick 'em in a stew.",
+    "value":"35"
+  },
+  {
+    "id":"648e69e7-5a20-4ca3-9dfa-725086ab12b7",
+    "name":"Potato",
+    "description":"It's a potato.  When you hit it, it sounds like \"Potato!\"",
+    "value":"15"
+  },
+  {
+    "id":"858adf4a-8ece-4832-847f-8a2ea01f46ac",
+    "name":"PotatoSeeds",
+    "description":"Mark Watney's favourite thing for Thanksgiving.",
+    "value":"10"
+  },
+  {
+    "id":"83da6c93-26b5-4953-b804-83ad687cd366",
+    "name":"Red Chicken Egg",
+    "description":"Legend has it that if you apply fire to this egg, you'll get a delicious breakfast.",
+    "value":"13"
+  },
+  {
+    "id":"229edb81-c49e-4d22-b07b-74807386abf5",
+    "name":"Rooster Egg",
+    "description":"It contains a tiny cock.",
+    "value":"18"
+  },
+  {
+    "id":"3335356d-1f70-4925-8824-e790b2b40a27",
+    "name":"Rose Seeds",
+    "description":"These seeds will eventually bud into a famous sled.",
+    "value":"7"
+  },
+  {
+    "id":"1db511f3-2819-4c33-87d4-5dbea270024e",
+    "name":"Rose",
+    "description":"By any other name it would smell as sweet.  Unless you called them \"stenchblossoms\".",
+    "value":"49"
+  },
+  {
+    "id":"e761f82a-c9e6-438e-b91d-cdc8c778ec10",
+    "name":"Salad",
+    "description":"You don't make friends with salad, but you do make nutrition.",
+    "value":"33"
+  },
+  {
+    "id":"7574b80a-7085-4a24-99a3-1bb7629d79ad",
+    "name":"Silver Ingot",
+    "description":"Good for killing werewolves",
+    "value":"35"
+  },
+  {
+    "id":"80355db0-8f6e-4aac-9f5c-056b578b4d78",
+    "name":"Silver Ore",
+    "description":"Something in this rock looks shiny",
+    "value":"18"
+  },
+  {
+    "id":"e64df091-fce9-4421-ac72-12396177bd29",
+    "name":"Stone",
+    "description":"It's a stone.",
+    "value":"6"
+  },
+  {
+    "id":"060d5de8-9dd2-47bd-8f6a-d7340cc01ad4",
+    "name":"StoreChest",
+    "description":"It's a chest, it's a store, it's a StoreChest!",
+    "value":"250"
+  },
+  {
+    "id":"5850a8c9-9cdc-4449-b304-1816986e2af0",
+    "name":"Strawberry Seeds",
+    "description":"No matter how hard you try, you won't get straw from these seeds.",
+    "value":"10"
+  },
+  {
+    "id":"72cee4c1-d367-424b-b65d-01ec68469f43",
+    "name":"Strawberry",
+    "description":"A good fruit to reach for when in a jam.",
+    "value":"20"
+  },
+  {
+    "id":"2765208f-d017-4314-9b4c-46def1c5edaf",
+    "name":"Table",
+    "description":"",
+    "value":"200"
+  },
+  {
+    "id":"829a8d86-2696-4271-bccd-d188e090439a",
+    "name":"Tomato",
+    "description":"Now all you need is lettuce and bacon and bread and you'll have a decent sandwich!",
+    "value":"20"
+  },
+  {
+    "id":"8071fb03-94bb-4f99-a541-555de048316f",
+    "name":"TomatoSeed",
+    "description":"With a little water and dirt, this could become a tomato",
+    "value":"10"
+  },
+  {
+    "id":"81d0afa6-3c12-46eb-9f2a-7ab55b45da1b",
+    "name":"Tulip Seeds",
+    "description":"This seed has two lips but doesn't want a kiss.",
+    "value":"8"
+  },
+  {
+    "id":"a70dade7-0fb0-4bdf-98ff-38c15db608bf",
+    "name":"Tulip",
+    "description":"A beautiful flower.",
+    "value":"18"
+  },
+  {
+    "id":"22f3dfd1-e07e-4be1-96ac-977cb8e09394",
+    "name":"Turnip Seeds",
+    "description":"Plant these seeds and something is bound to turn up.",
+    "value":"10"
+  },
+  {
+    "id":"e33da55c-49ca-464c-bb92-f6f25edd1c43",
+    "name":"Turnip",
+    "description":"These seem to turn up all over the place.",
+    "value":"20"
+  },
+  {
+    "id":"230412c0-71e2-4f43-a7f8-4318b4f44242",
+    "name":"Water Bucket",
+    "description":"It's a bucket with water in it!",
+    "value":"10"
+  },
+  {
+    "id":"14465371-1e14-43a4-8ea3-f430d55e7a19",
+    "name":"Watering Can",
+    "description":"Use this to water crops.  Or whatever.  I'm not your boss.",
+    "value":"250"
+  },
+  {
+    "id":"102ea8d3-5a60-40d6-bd78-6afa8f7c266d",
+    "name":"Watermelon Seeds",
+    "description":"This seed plus water equals melon... plus water.",
+    "value":"10"
+  },
+  {
+    "id":"64d246f3-2dd9-4083-b20b-3a04fab40654",
+    "name":"Watermelon",
+    "description":"Much like the Earth, it is 70% water.",
+    "value":"20"
+  },
+  {
+    "id":"ac7129ee-6ed0-4e99-874c-be366c03aea1",
+    "name":"White Chicken Egg",
+    "description":"It's an egg with a strong feeling of manifest destiny.",
+    "value":"10"
+  },
+  {
+    "id":"5df8fabb-7b52-48ec-ba89-880545188996",
+    "name":"Wood",
+    "description":"You've got wood!",
+    "value":"8"
+  }
+]

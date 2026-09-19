@@ -1,0 +1,1 @@
+import{_ as a,c as t,a as o,o as n}from"./index-Bf06b8Zu.js";const r={},s={class:"about"};function c(l,e){return n(),t("div",s,[...e[0]||(e[0]=[o("h1",null,"About",-1),o("p",null,"Playing around with goal planner for a simple crafting game",-1)])])}const u=a(r,[["render",c]]);export{u as default};
